@@ -1,0 +1,16 @@
+.addbutton {
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: var(--primary);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.12), 0 4px 8px rgba(0, 0, 0, 0.06);
+}
+
+.addbutton .icon {
+  color: var(--white);
+  font-size: 25px;
+}

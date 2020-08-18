@@ -1,0 +1,66 @@
+.app {
+  height: 100%;
+}
+
+.full-container {
+  height: 100vh;
+}
+
+.spinner {
+  height: 100vh;
+}
+
+// Form Error Message
+.error-message {
+  background-color: #f8d7da;
+  font-size: 13px;
+  color: #a15b61;
+  border: 1px solid #f5c6cb;
+}
+
+.resize {
+  overflow: auto;
+  resize: both;
+}
+
+#alert-container {
+  z-index: 2;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
+.crud-button {
+  font-size: 14px;
+  padding: 10px;
+}
+
+.breadcrumbs {
+  background: #fff;
+  margin-bottom: 15px;
+}
+
+.breadcrumb {
+  margin-bottom: 0;
+  line-height: 2.5;
+  display: inline-block;
+}
+
+.breadcrumb::before {
+  display: inline-block;
+  padding-right: 5px;
+  padding-left: 5px;
+  color: #818a91;
+  content: '/';
+}
+.breadcrumb.active {
+  color: #818a91;
+}
+
+.form-control.danger {
+  border: 1px solid red;
+}
+
+.danger {
+  border: 1px solid red;
+}

@@ -1,0 +1,27 @@
+.create-container {
+  height: 100vh;
+}
+
+.create-container .icon {
+  color: $gray-400;
+}
+
+.create-container .icon-blue {
+  color: $primary;
+}
+
+.create-form {
+  width: 90%;
+}
+
+.create-form .ql-container {
+  overflow: auto;
+  resize: both;
+  min-height: 300px;
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.create-back {
+  font-size: 40px;
+}

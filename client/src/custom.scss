@@ -1,0 +1,16 @@
+@import '~bootstrap/scss/functions';
+@import '~bootstrap/scss/variables';
+
+$list-group-border-width: 0px;
+$list-group-item-padding-x: 8px;
+$list-group-item-padding-y: 0.2rem;
+$link-hover-decoration: none;
+
+@import './components//Auth//Login.styles.scss';
+@import './components/FullEntry/FullQuestion.styles.scss';
+@import './components/AddButton/AddButton.styles.scss';
+@import './components/Spinner/Spinner.styles.scss';
+@import './components/App/App.scss';
+@import './components/Entries/Faqs.styles.scss';
+@import './components/CreateEntry//CreateForm.styles.scss';
+@import '~bootstrap/scss/bootstrap.scss';
