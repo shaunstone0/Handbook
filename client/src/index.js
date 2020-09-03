@@ -20,6 +20,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import rootReducers from './reducers/index';
 import CreateForm from './components/CreateEntry/CreateForm';
 import EditForm from './components/UpdateEntry/EditForm';
+import Search from './components/Search/Search';
 
 // Components
 import App from './components/App/App';
@@ -67,6 +68,7 @@ const Root = ({ isAuthenticated, isLoading, user }) => {
           path='/handbook/fullquestion'
           component={FullQuestion}
         />
+        <PrivateRoute exact path='/handbook/search' component={Search} />
         <PrivateRoute exact path='/handbook/create' component={CreateForm} />
         <PrivateRoute exact path='/handbook/edit' component={EditForm} />
         <Route path='/login' component={Login} />
